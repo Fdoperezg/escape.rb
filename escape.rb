@@ -1,6 +1,11 @@
 g = ARGV[0].to_f
-r = ARGV[1].to_i
+r = ARGV[1].to_f
 
-ve = Integer.sqrt(2*g*r)
+puts Math.sqrt(2 * g * r)
 
-puts "La velocidad de escape es #{ve}"
+# Usando Interpolación:
+
+# Igual: g = ARGV[0].to_f
+# Igual: r = ARGV[1].to_f
+# La fórmula debería ser: ve = Math.sqrt(2 * g * r)
+# La salida debería ser: "La velocidad de escape es #{ve}" 
